@@ -1,0 +1,287 @@
+*{margin: 0px;padding: 0px;text-decoration: none!important;list-style-type: none;}
+body{
+	background-image: url("../img/bg.jpg");
+	width: 100%;
+	height: 100%;
+	font-size: 13px;
+}
+.header
+{
+	background-image: url("../img/menu-bg.png");
+	border-bottom: 5px solid #d24a43;
+	width: 100%;
+}
+.header-top
+{
+	
+	height: 65px;
+	width: 1200px;
+	margin:auto;
+}
+.header-top img
+{
+	overflow: hidden;
+	height: 60px;
+	transition: 0.3s;
+}
+.header-top img:hover
+{
+	opacity: 0.7;
+}
+.navigation
+{
+	display: inline-block;
+	margin-left: 30px;
+}
+.navigation ul li
+{
+	display: inline-block;
+}
+.navigation ul li a
+{
+	padding: 7px;
+	color: white;
+	transition: 0.5s;
+	font-size: 14px;
+	font-family: "BPG Arial", sans-serif;font-size: 14px;
+}
+.navigation ul li a:hover
+{
+	color: #d24a43;
+}
+.search
+{
+	display: inline-block;
+	margin-left: 50px;
+}
+.header-bottom-menu
+{
+	width: 1200px;
+	margin: auto;
+	background-color: white;
+	border-bottom: 5px solid #8ab0c3;
+}
+.header-bottom-menu-nav
+{
+	margin-left: 15px;
+	display: inline-block;
+	margin-top: 10px;
+}
+.header-bottom-menu-nav ul li
+{
+	display: inline-block;
+	padding: 5px;
+	border-right: 1px solid #d24a43;
+}
+.header-bottom-menu-nav ul li a
+{
+	color:#00455e;
+	font-family: "BPG Arial", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+.header-bottom-menu-nav ul li a:hover
+{
+	color: #d24a43;
+}
+.login
+{
+	display: inline-block;
+	margin-top: 15px;
+}
+.login p a
+{
+	color:black;
+	font-weight: bold;
+}
+.login-nav
+{
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.wall
+{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	background-color: white;
+}
+.bottom-header-news
+{
+	display: inline-block;
+	overflow: hidden;
+}
+.movie-news
+{
+	margin: 10px 0 0 15px;
+	border:1px solid #B5B5B5;
+	display: inline-block;
+	border-radius: 3px;
+	font-family: "BPG Arial", sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	font-weight: bold;
+	padding: 5px;
+}
+.img-news
+{
+	border:1px solid #B5B5B5;
+	border-radius: 2px;
+	font-size: 11px;
+	margin-top: 2px;
+	cursor: pointer;
+	transition: 0.7s;
+	overflow: hidden;
+}
+.img-news:hover
+{
+	background-color: #A4D3F5;
+}
+.img-news p
+{
+	padding: 4px;
+	width: 230px;
+}
+.img-news img
+{
+	width: 60px;
+	height:65px;
+}
+.ganrigi
+{
+	margin: 10px 0 0 15px;
+	border:1px solid #B5B5B5;
+	width: 305px;
+	border-radius: 3px;
+	font-family: "BPG Arial", sans-serif;
+	font-size: 14px;
+	overflow: hidden;
+	font-weight: bold;
+	display: inline-block;
+	padding: 5px;
+}
+.ganrigi p
+{
+	background-color: #e4e3e3;
+	border-radius: 2px;
+}
+.ganrigi-img-news
+{
+	border:1px solid #B5B5B5;
+	border-radius: 2px;
+	font-size: 11px;
+	margin-top: 2px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.ganrigi-img-news:hover
+{
+	background-color: #A4D3F5;
+}
+.ganrigi-img-news img
+{
+	width: 100%;
+	height:100px;
+	transition: 0.7s;
+}
+.ganrigi-img-news img:hover
+{
+	opacity: 0.7;
+}
+.sliderr
+{
+	display: inline-block;
+	border:1px solid #B5B5B5;
+	padding: 3px;
+	border-radius: 3px;
+	margin-left: 30px;
+	position: relative;
+	bottom: 10px;
+}
+.reklama
+{
+	width: 1200px;
+	background-color: white;
+	margin:auto;
+}
+.reklama img
+{
+	width: 100%;
+	overflow: hidden;
+	height: 100px;
+}
+.content
+{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	background-color: white;
+	margin-top: 10px;
+}
+.description-news
+{
+	width: 700px;
+	margin-left: 15px;
+	margin-top: 5px;
+}
+.description-news p
+{
+	width: 100%;
+	background-color: #00455e;
+	color:white;
+	border-radius: 3px;
+	padding: 7px;
+	font-weight: bold;
+}
+.news img
+{
+	width: 165px;
+	border-radius: 3px;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.news img:hover
+{
+	opacity: 0.7;
+}
+.news p
+{
+	text-align: center;
+}
+.paginations
+{
+	margin:10px 0 0 40px;
+}
+.footer-bottom
+{
+	width: 1200px;
+	margin: auto;
+	overflow: hidden;
+	background-color: #464646;
+	height: 73px;
+}
+.footer-logo
+{
+	margin-left: 20px;
+	padding: 10px;
+}
+.footer-logo img
+{
+	border-right: 1px solid #353535;
+	border-width: 0 1px;
+	float: left;
+}
+.footer-p p
+{
+	width: 300px;
+	display: inline-block;
+	margin-left: 20px;
+	color:white;
+}
+.forclear
+{
+	clear: both;
+}
